@@ -58,6 +58,7 @@
         .login-box .input-box input {
             font-family: font-regular, Arial, Helvetica, sans-serif;
             font-size: 15px;
+            padding: 10px;
             border: 1px solid var(--gray);
             border-radius: 3px;
             width: 100%;

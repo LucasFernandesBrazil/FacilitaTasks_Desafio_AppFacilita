@@ -63,14 +63,28 @@
         }
     }
 
+
     /* Painel de login */
     @media (min-width: 728px){
         .col-login-3 {
-            width: 33.3333%;
+            width: 30%;
             padding: 0;
         }
 
-        .col-login-9 {
+        .col-login-7 {
+            width: 70%;
+            padding: 0;
+        }
+    }
+
+    /* dashboard */
+    @media (min-width: 728px){
+        .col-dashboard-1 {
+            width: 10%;
+            padding: 0;
+        }
+
+        .col-login-2 {
             width: 66.7777%;
             padding: 0;
         }
