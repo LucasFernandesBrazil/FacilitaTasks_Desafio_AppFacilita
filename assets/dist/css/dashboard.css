@@ -1,0 +1,64 @@
+
+
+
+/* Configuração da barra de navegação principal */
+#dashboard {
+    height: 100%;
+}
+
+    #dashboard .col {
+        height: 100%;
+    }
+
+
+.navbar {
+    background: var(--blue);
+    height: 100%;
+}
+
+    .navbar img {
+        display: block;
+        width: 80px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 1em 0;
+    }
+
+.navbar-menu {
+    position: relative;
+    top: 20%;
+}
+
+    .navbar-menu .navbar-item-select {
+        background: var(--blueDark);
+    }
+
+    .navbar-menu a .navbar-item{
+        border-top: 0.5px solid rgba(255, 255, 255, 0.100);
+        border-bottom: 0.5px solid rgba(255, 255, 255, 0.100);
+        padding: 1em 0;
+        transition: ease-in 0.2s;
+    }
+
+    .navbar-menu a .navbar-item:hover {
+        background: var(--blueDark);
+        filter: opacity(50%);
+        transition: ease-out 0.3s;
+    }
+
+        .navbar-menu a {
+            color: var(--white);
+            text-decoration: none;
+            text-align: center;
+        }
+
+            .navbar-menu a .navbar-item i {
+                margin-bottom: 7px;
+                font-size: 35px;
+            }
+
+            .navbar-menu a .navbar-item h6 {
+                font-family: font-light, Arial, Helvetica, sans-serif;
+                font-size: 14px;
+            }
+

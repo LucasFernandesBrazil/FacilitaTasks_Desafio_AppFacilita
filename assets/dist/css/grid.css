@@ -26,8 +26,10 @@
 
 /* configuração linha */
 .row {
-    margin-left: -5px;
-    margin-right: -5px;
+    margin: 0;
+    padding: 0;
+    /* margin-left: -5px; */
+    /* margin-right: -5px; */
 }
 
     .row:before,
@@ -80,12 +82,17 @@
     /* dashboard */
     @media (min-width: 728px){
         .col-dashboard-1 {
-            width: 10%;
+            width: 6%;
             padding: 0;
         }
 
-        .col-login-2 {
-            width: 66.7777%;
+        .col-dashboard-2 {
+            width: 11%;
+            padding: 0;
+        }
+
+        .col-dashboard-7 {
+            width: 83%;
             padding: 0;
         }
     }
