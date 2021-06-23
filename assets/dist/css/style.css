@@ -1,1 +1,5 @@
+/* Configurações globais */
 
+body, html{
+    height: 100%;
+}
