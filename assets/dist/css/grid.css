@@ -32,7 +32,7 @@
 
     .row:before,
     .row:after {
-        content: '';
+        content: "";
         display: table;
     }
 
@@ -49,10 +49,6 @@
     padding-right: 5px;
     width: 100%;
     margin-right: -4px;
-
-    /*Suporte a navegadores antigos*/
-    *zoom: 1;
-    *display: inline;
 }
 
     @media (min-width: 480px){
@@ -67,9 +63,16 @@
         }
     }
 
+    /* Painel de login */
     @media (min-width: 728px){
-        .col-3 {
+        .col-login-3 {
             width: 33.3333%;
+            padding: 0;
+        }
+
+        .col-login-9 {
+            width: 66.7777%;
+            padding: 0;
         }
     }
    
