@@ -2,7 +2,6 @@
 
 #login {
     height: 100%;
-    border: 1px solid red;
 }
 
 #login .col{
@@ -20,20 +19,92 @@
     height: 100%;
 }
 
-.logo-area img {
-    width: 300px;
-    margin-left: auto;
-    margin-right: auto;
-}
+    .logo-area img {
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
 
 /* Configuração da área de login input */
 
 .login-box{
+    position: relative;
     display: block;
-    border: 1px solid red;
-    width: 40em;
-    height: 20em;
+    width: 450px;
     margin-left: auto;
     margin-right: auto;
+    top: 35%;
+}
+
+    .login-box h1 {
+        font-family: font-medium, Arial, Helvetica, sans-serif;
+        font-size: 22px;
+        color: var(--black);
+        margin-bottom: 1.8em;
+    }
+
+    .login-box h6 {
+        font-family: font-light, Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        color: var(--dark);
+        margin-bottom: 0.5em;
+    }
+
+    .login-box .input-box {
+        margin-top: 0.8em;
+    }
+
+        .login-box .input-box input {
+            font-family: font-regular, Arial, Helvetica, sans-serif;
+            font-size: 15px;
+            border: 1px solid var(--gray);
+            border-radius: 3px;
+            width: 100%;
+            height: 50px;
+        }
+
+            .login-box .input-box input:focus {
+                border: none;
+                outline: 2px solid var(--blue);
+            }
+
+    .login-box button {
+        font-family: font-semiBold, Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        color: var(--white);
+        background: var(--green);
+        border: none;
+        border-radius: 3px;
+        width: 100%;
+        height: 50px;
+        margin: 1em 0 2em 0;
+    }
+
+        .login-box button:hover {
+            background: var(--green);
+            filter: opacity(80%);
+            transition: 1s;   
+            cursor: pointer;
+        }
+
+
+    .login-box a {
+        font-family: font-regular, Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        color: var(--blue);
+    }
+
+
+
+/* Configuração do layout responsivo */
+
+@media (max-width: 728px){
+    #login .col{
+        height: 20%;
+    }
+
+    .login-box {
+        width: 300px;
+    }
 }
