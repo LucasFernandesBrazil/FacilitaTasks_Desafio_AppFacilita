@@ -1,5 +1,6 @@
 /* Configurações gerais */
 #dashboard {
+    background: var(--background2);
     height: 100%;
 }
 
@@ -97,3 +98,16 @@
                 color: var(--blue);
                 transition: ease-in 0.2s;
             }
+
+            .subbar-menu .subbar-item-select a{
+                color: var(--blue);
+            }
+
+
+/* Configuração da área de conteúdos */
+
+.board {
+    background: transparent;
+    height: 100%;
+    z-index: 1;
+}
