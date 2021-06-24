@@ -18,7 +18,7 @@
 
     .navbar img {
         display: block;
-        width: 80px;
+        width: 70px;
         margin-left: auto;
         margin-right: auto;
         padding: 1em 0;
@@ -34,9 +34,9 @@
     }
 
     .navbar-menu a .navbar-item{
-        border-top: 0.5px solid rgba(255, 255, 255, 0.100);
-        border-bottom: 0.5px solid rgba(255, 255, 255, 0.100);
-        padding: 1em 0;
+        border-top: 0.3px solid rgba(255, 255, 255, 0.500);
+        border-bottom: 0.3px solid rgba(255, 255, 255, 0.500);
+        padding: 1.1em 0;
         transition: ease-in 0.2s;
     }
 
@@ -53,12 +53,12 @@
         }
 
             .navbar-menu a .navbar-item i {
-                margin-bottom: 7px;
                 font-size: 35px;
+                margin-bottom: 9px;
             }
 
             .navbar-menu a .navbar-item h6 {
                 font-family: font-light, Arial, Helvetica, sans-serif;
-                font-size: 14px;
+                font-size: 13px;
             }
 
