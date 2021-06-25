@@ -165,7 +165,8 @@
     .box-task {
         display: flex;
         background: var(--white);
-        padding: 0.7em 0.7em;
+        padding: 1em 1em;
+        border-radius: 3px;
     }
 
         .box-task .check-area {
@@ -236,5 +237,20 @@
             }
 
             .box-task .right p {
+                font-family: font-regular, Arial, Helvetica, sans-serif;
+                font-size: 15px;
                 margin-right: 20px;
             }
+
+            .box-task .right a{
+                color: var(--black);
+                transition: ease-in 0.3s;
+            }
+                .box-task .right a:hover{
+                    color: var(--blue);
+                    transition: ease-out 0.3s;
+                }
+
+                .box-task .right a:active{
+                    color: var(--blue);
+                }
