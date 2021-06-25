@@ -23,7 +23,7 @@ Irei documentar o processo de desenvolvimento e usuabilidade do projeto neste RE
 </h2>
 <hr>
 
-## Separação de materiais e planejamento
+## #1 Separação de materiais e planejamento
 
 ![Processo de montagem de logo](https://user-images.githubusercontent.com/62476878/123460553-33883880-d5be-11eb-8df5-849dee5d2c65.png)
 Relizei a vetorização da logo utilizando o software de edição Illustrator
@@ -33,10 +33,11 @@ Relizei a vetorização da logo utilizando o software de edição Illustrator
 Criação de pastas de organização para deixar o projeto com fácil navegação e manutenção
 <br><br>
 
-## Desenvolvimento do sistema de GRID e Declarações de variáveis e Fontes
+## #2 Desenvolvimento do sistema de GRID e Declarações de variáveis e Fontes
 <img src="https://j.gifs.com/Qk0g4Y.gif"/>
+<br><br>
 
-## Desenvolvimento da tela de login
+## #3 Desenvolvimento da tela de login
 <img src="https://j.gifs.com/XQopNk.gif"/>
 Responsividade:
 <img src="https://j.gifs.com/w0m7GJ.gif"/>
