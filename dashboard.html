@@ -19,7 +19,7 @@
 <body>
 
     <div class="row" id="dashboard">
-        <div class="col col-dashboard-1"> <!-- BARRA DE NAVEÇÃO PRIMÁRIA  | Início-->
+        <div class="col col-dashboard-1"> <!-- BARRA DE NAVEÇÃO PRIMÁRIA | Início-->
             <div class="navbar">
                 
                 <img class="logo" src="/assets/img/svg/icon-facilita-white.svg" alt="Ícone FacilitaTasks">
@@ -49,8 +49,8 @@
 
                 </div>
             </div>
-        </div>  <!-- BARRA DE NAVEÇÃO PRIMÁRIA  | Fim-->
-        <div class="col col-dashboard-2">
+        </div>  <!-- BARRA DE NAVEÇÃO PRIMÁRIA | Fim-->
+        <div class="col col-dashboard-2">  <!-- BARRA DE NAVEÇÃO SECUNDÁRIA | Início-->
             <div class="subbar">
 
                 <div class="subbar-menu">
@@ -78,12 +78,28 @@
                 </div>
 
             </div>
-        </div>
-        <div class="col col-dashboard-7">
-            <div class="board">
+        </div> <!-- BARRA DE NAVEÇÃO SECUNDÁRIA | Fim-->
+        <div class="col col-dashboard-7"> <!-- ÁREA DE CONTEÚDO | Início-->
+            <div class="container">
+                <main class="board">
+                    <div class="board-header">
+                        <h1>Minhas Tarefas</h1>
+                        <p>Olá {{name}}, você tem {{tasks}} pendentes</p>
+                    </div>
 
+                    <div class="board-search">
+                        <form action="">
+                            <input type="search" title="Digite o nome da tarefa" placeholder="Buscar Tarefas">
+                            <i class="fas fa-search" aria-hidden="true"></i>
+                        </form>
+                    </div>
+
+                    <div class="box-task">
+
+                    </div>
+                </main>
             </div>
-        </div>
+        </div> <!-- ÁREA DE CONTEÚDO | Fim-->
         
     </div>
 
