@@ -37,10 +37,6 @@ Criação de pastas de organização para deixar o projeto com fácil navegaçã
 <img src="https://j.gifs.com/Qk0g4Y.gif"/>
 
 ## Desenvolvimento da tela de login
-<img src="https://j.gifs.com/gpLMm9.gif"/>
-
-- HTML
-- CSS
-- JAVA SCRIPT
-- BOOTSTRAP
-
+<img src="https://j.gifs.com/XQopNk.gif"/>
+Responsividade:
+<img src="https://j.gifs.com/w0m7GJ.gif"/>
