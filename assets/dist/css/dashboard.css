@@ -207,7 +207,7 @@ header {
 
         .board .board-search input {
             background: none;
-            font-family: font-regular, Arial, Helvetica, sans-serif;
+            font-family: font-medium, Arial, Helvetica, sans-serif;
             font-size: 15px;
             color: var(--dark);
             padding: 20px;
@@ -343,3 +343,21 @@ header {
                 .box-task .right a:active{
                     color: var(--blue);
                 }
+
+
+.add-box {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 4em;
+    margin-right: 2em;
+}
+
+    .add-box a{
+        font-size: 20px;
+        color: var(--white);
+        background: var(--green);
+        padding: 1.3em;
+        border-radius: 50%;
+    }
