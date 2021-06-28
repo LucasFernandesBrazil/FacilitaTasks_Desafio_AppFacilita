@@ -368,3 +368,127 @@ header {
         font-size: 30px;
         transition: ease-out 0.3s;
     }
+
+
+
+/* Responsividade da tela */
+
+@media (max-width: 575.98px) {
+    .subbar .subbar-menu {
+        padding-left: 0.5em;
+    }
+
+    .subbar .subbar-item a {
+        font-size: 15px;
+    }
+
+    main.board {
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    header {
+        margin-left: 7%;
+    }
+    
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .subbar .subbar-menu {
+        padding-left: 0.5em;
+    }
+
+    .subbar .subbar-item a {
+        font-size: 15px;
+    }
+
+    main.board {
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    header {
+        width: 90%;
+        margin-left: 10%;
+    }
+    
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .subbar .subbar-menu {
+        padding-left: 0.5em;
+    }
+
+    .subbar .subbar-item a {
+        font-size: 15px;
+    }
+
+    main.board {
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    header {
+        width: 90%;
+        margin-left: 10%;
+    }
+    
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .subbar .subbar-menu {
+        padding-left: 0.5em;
+    }
+
+    .subbar .subbar-item a {
+        font-size: 15px;
+    }
+
+    main.board {
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    header {
+        width: 92%;
+        margin-left: 8%;
+    }
+
+}
+
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    .subbar .subbar-menu {
+        padding-left: 0.5em;
+    }
+
+    .subbar .subbar-item a {
+        font-size: 15px;
+    }
+
+    main.board {
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    header {
+        width: 93%;
+        margin-left: 7%;
+    }
+    
+}
+
+@media (min-width: 1400px) and (max-width: 1636px) {
+    .subbar .subbar-menu {
+        padding-left: 0.5em;
+    }
+
+    .subbar .subbar-item a {
+        font-size: 15px;
+    }
+}
