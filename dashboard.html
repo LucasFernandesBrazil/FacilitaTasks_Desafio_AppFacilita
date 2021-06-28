@@ -23,7 +23,7 @@
             <div class="user">
                 <img src="/assets/img/jpeg/user.jpg" alt="Foto usuário">
                 <div class="user-info">
-                    <h6>Eduardo Pereira da Costa</h6>
+                    <h6>Lucas Fernandes</h6>
                     <p>Front-end Developer</p>
                 </div>
             </div>
@@ -71,10 +71,12 @@
 
                 <div class="subbar-item">
                     <a href="#">>&nbsp Urgentes</a>
+                    <span class="urgent-number">1</span>
                 </div>
 
                 <div class="subbar-item">
                     <a href="#">>&nbsp Importantes</a>
+                    <span class="important-number">2</span>
                 </div>
 
                 <div class="subbar-item">
@@ -93,7 +95,7 @@
                 <main class="board">
                     <div class="board-header">
                         <h1>Minhas Tarefas</h1>
-                        <p>Olá {{name}}, você tem {{tasks}} pendentes</p>
+                        <p>Olá <span>Lucas Fernandes</span>, você tem <span class="underline">2 tarefas</span> pendentes</p>
                     </div>
 
                     <div class="board-search">
@@ -108,9 +110,33 @@
                             <input type="checkbox">
                             <span class="check"></span>
                         </label>
-                        <h2>{{task}}</h2>
+                        <h2>Pranejar desenvolvimento do app TodoList</h2>
                         <div class="right">
-                            <p>{{status}}</p>
+                            <p class="urgent-text">Urgente</p>
+                            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="box-task">
+                        <label class="check-area">
+                            <input type="checkbox">
+                            <span class="check"></span>
+                        </label>
+                        <h2>Criar projeto Vue.js</h2>
+                        <div class="right">
+                            <p class="important-text">Importante</p>
+                            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="box-task">
+                        <label class="check-area">
+                            <input type="checkbox">
+                            <span class="check"></span>
+                        </label>
+                        <h2>Separar componentes</h2>
+                        <div class="right">
+                            <p class="important-text">Importante</p>
                             <a href="#"><i class="fas fa-ellipsis-v"></i></a>
                         </div>
                     </div>

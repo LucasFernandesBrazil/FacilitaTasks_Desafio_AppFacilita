@@ -146,13 +146,33 @@ header {
                 color: var(--blue);
             }
 
+            .urgent-number {
+                font-family: font-bold, Arial, Helvetica, sans-serif;
+                font-size: 12px;
+                background: var(--red);
+                color: var(--white);
+                padding: 5px 10px;
+                border-radius: 50%;
+                margin-left: 3px;
+            }
+
+            .important-number {
+                font-family: font-bold, Arial, Helvetica, sans-serif;
+                font-size: 12px;
+                background: var(--yellow);
+                color: var(--white);
+                padding: 5px 10px;
+                border-radius: 50%;
+                margin-left: 3px;
+            }
+
 
 /* Configuração da área de conteúdos */
 
 .board {
     background: transparent;
     height: 100%;
-    margin-top: 20%;
+    margin-top: 25%;
 }
 
     .board .board-header {
@@ -170,6 +190,15 @@ header {
             font-size: 20px;
             color: var(--black);
         }
+
+            .board .board-header p span {
+                color: var(--blue);
+                font-weight: 600;
+            }
+
+            .underline {
+                border-bottom: 1px solid var(--blue);
+            }
 
     
     .board .board-search {
@@ -210,6 +239,8 @@ header {
         background: var(--white);
         padding: 1em 1em;
         border-radius: 3px;
+        align-self: center;
+        margin-bottom: 10px;
     }
 
         .box-task .check-area {
@@ -270,23 +301,38 @@ header {
             color: var(--black);
             font-size: 15px;
             margin-left: 0.7em;
-            margin-top: 5px;
+            margin-top: 6px;
         }
 
             .box-task .right {
                 display: flex;
                 margin-left: auto;
-                margin-top: 5px;
+                margin-top: 1px;
             }
 
             .box-task .right p {
-                font-family: font-regular, Arial, Helvetica, sans-serif;
+                font-family: font-medium, Arial, Helvetica, sans-serif;
                 font-size: 15px;
                 margin-right: 20px;
             }
 
+                .urgent-text {
+                    background: var(--red);
+                    color: var(--white);
+                    border-radius: 15px;
+                    padding: 7px;
+                }
+
+                .important-text {
+                    background: var(--yellow);
+                    color: var(--white);
+                    border-radius: 15px;
+                    padding: 7px;
+                }
+
             .box-task .right a{
-                color: var(--black);
+                color: var(--dark);
+                padding: 7px;
                 transition: ease-in 0.3s;
             }
                 .box-task .right a:hover{
