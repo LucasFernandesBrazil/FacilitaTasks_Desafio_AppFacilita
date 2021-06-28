@@ -186,9 +186,9 @@ header {
         }
 
         .board .board-header p {
-            font-family: font-regular, Arial, Helvetica, sans-serif;
+            font-family: font-medium, Arial, Helvetica, sans-serif;
             font-size: 20px;
-            color: var(--black);
+            color: var(--dark);
         }
 
             .board .board-header p span {
@@ -205,40 +205,41 @@ header {
         margin: 2em 0;
     }
 
-        .board .board-search input {
-            background: none;
-            font-family: font-medium, Arial, Helvetica, sans-serif;
-            font-size: 15px;
-            color: var(--dark);
-            padding: 20px;
-            border: 3px solid var(--gray);
-            border-radius: 3px;
-            width: 100%;
-            height: 50px;
-        }
-
-            .board .board-search input:focus {
-                border: none;
-                outline: 2px solid var(--blue);
+            .board .board-search input {
+                background: none;
+                font-family: font-medium, Arial, Helvetica, sans-serif;
+                font-size: 18px;
+                color: var(--dark);
+                padding: 20px;
+                border: 3px solid var(--gray);
+                border-radius: 7px;
+                width: 100%;
+                height: 60px;
             }
 
-            .board .board-search input[type=search] {
-                padding-right: 50px;            }
+                .board .board-search input:focus {
+                    border: none;
+                    outline: 2px solid var(--blue);
+                }
 
-        .board .board-search i {
-            display: none;
-           position: absolute;
-           font-size: 30px;
-           color: var(--dark);
-           opacity: 20%;
-        }
+                .board .board-search input[type=search] {
+                    padding-right: 50px;            
+                }
+
+            .board .board-search i {
+                display: none;
+                position: absolute;
+                font-size: 30px;
+                color: var(--dark);
+                opacity: 20%;
+            }
     
 
     .box-task {
         display: flex;
         background: var(--white);
         padding: 1em 1em;
-        border-radius: 3px;
+        border-radius: 6px;
         align-self: center;
         margin-bottom: 10px;
     }
@@ -355,9 +356,15 @@ header {
 }
 
     .add-box a{
-        font-size: 20px;
+        font-size: 25px;
         color: var(--white);
         background: var(--green);
         padding: 1.3em;
         border-radius: 50%;
+        transition: ease-in 0.3s;
+    }
+
+    .add-box a:hover{
+        font-size: 30px;
+        transition: ease-out 0.3s;
     }
