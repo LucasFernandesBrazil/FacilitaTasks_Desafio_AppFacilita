@@ -8,6 +8,49 @@
         height: 100%;
     }
 
+/* Configuração do header */
+
+header {
+    position: absolute;
+    display: block;
+    width: 94%;
+    height: 90px;
+    margin-left: 6%;
+    background: var(--white);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.200);
+}
+
+    header .user {
+        display: flex;
+        float: right;
+        margin-right: 2em;
+        margin-top: 13px;
+    }
+
+        header .user img {
+            width: 60px;
+            border-radius: 50%;
+        }
+
+            header .user .user-info {
+                display: block;
+                align-self: center;
+                margin-left: 0.8em;
+            }
+
+                header .user .user-info h6{
+                    font-family: font-regular, Arial, Helvetica, sans-serif;
+                    font-size: 18px;
+                    color: var(--black);
+                }
+
+                header .user .user-info p{
+                    font-family: font-medium, Arial, Helvetica, sans-serif;
+                    font-size: 14px;
+                    color: var(--black);
+                    color: var(--blue);
+                }
+
 
 /* Configuração da barra de navegação principal */
 .navbar {
