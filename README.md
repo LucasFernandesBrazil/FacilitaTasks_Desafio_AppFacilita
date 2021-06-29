@@ -44,8 +44,6 @@ Responsividade:
 
 ## #3 Desenvolvimento da tela DASHBOARD
 <img src="https://j.gifs.com/Eq9VJ0.gif"/>
-Responsividade:
-<img src="https://j.gifs.com/VvPV4W.gif"/>
 
 
 ## Link para o site exemplo: https://lucasfernandesbrazil.github.io/FacilitaTasks_Desafio_AppFacilita/index.html
