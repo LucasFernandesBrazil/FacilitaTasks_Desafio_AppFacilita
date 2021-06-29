@@ -96,7 +96,7 @@
                 <main class="board">
                     <div class="board-header">
                         <h1>Minhas Tarefas</h1>
-                        <p>Olá <span>Lucas Fernandes</span>, você tem <span class="underline">2 tarefas</span> pendentes</p>
+                        <p>Olá <span>Lucas Fernandes</span>, você tem <span class="underline">4 tarefas</span> pendentes</p>
                     </div>
 
                     <div class="board-search">
@@ -137,9 +137,21 @@
                             <input type="checkbox">
                             <span class="check"></span>
                         </label>
-                        <h2>Separar componentes</h2>
+                        <h2>Montar relas HTML/CSS</h2>
                         <div class="right">
                             <p class="important-text">Importante</p>
+                            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="box-task">
+                        <label class="check-area">
+                            <input type="checkbox">
+                            <span class="check"></span>
+                        </label>
+                        <h2>{{task}}</h2>
+                        <div class="right">
+                            <p class="important-text">{{status}}</p>
                             <a href="#"><i class="fas fa-ellipsis-v"></i></a>
                         </div>
                     </div>
