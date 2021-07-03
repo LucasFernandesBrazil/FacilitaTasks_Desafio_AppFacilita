@@ -46,4 +46,5 @@ Responsividade:
 <img src="https://j.gifs.com/Eq9VJ0.gif"/>
 
 
-## Link para o site exemplo: https://lucasfernandesbrazil.github.io/FacilitaTasks_Desafio_AppFacilita/index.html
+## Link do projeto hospedado:
+https://lucasfernandesbrazil.github.io/FacilitaTasks_Desafio_AppFacilita/index.html
