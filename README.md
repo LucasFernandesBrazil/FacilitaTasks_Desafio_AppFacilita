@@ -41,3 +41,10 @@ Criação de pastas de organização para deixar o projeto com fácil navegaçã
 <img src="https://j.gifs.com/XQopNk.gif"/>
 Responsividade:
 <img src="https://j.gifs.com/w0m7GJ.gif"/>
+
+## #3 Desenvolvimento da tela DASHBOARD
+<img src="https://j.gifs.com/Eq9VJ0.gif"/>
+
+
+## Link do projeto hospedado:
+https://lucasfernandesbrazil.github.io/FacilitaTasks_Desafio_AppFacilita/index.html
