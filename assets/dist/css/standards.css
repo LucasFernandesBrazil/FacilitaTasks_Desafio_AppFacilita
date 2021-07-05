@@ -16,41 +16,41 @@
 
 @font-face {
     font-family: "font-thin";
-    src: url('./assets/dist/font/SVN-Gilroy-Thin.ttf') format("opentype");
+    src: url('/assets/dist/font/SVN-Gilroy-Thin.ttf') format("opentype");
 }
 
 @font-face {
     font-family: "font-light";
-    src: url('./assets/dist/font/SVN-Gilroy-Light.ttf') format("opentype");
+    src: url('/assets/dist/font/SVN-Gilroy-Light.ttf') format("opentype");
 }
 
 @font-face {
     font-family: "font-regular";
-    src: url('./assets/dist/font/SVN-Gilroy-Regular.ttf') format("opentype");
+    src: url('/assets/dist/font/SVN-Gilroy-Regular.ttf') format("opentype");
 }
 
 @font-face {
     font-family: "font-italic";
-    src: url('./assets/dist/font/SVN-Gilroy-Italic.ttf') format("opentype");
+    src: url('/assets/dist/font/SVN-Gilroy-Italic.ttf') format("opentype");
 }
 
 @font-face {
     font-family: "font-medium";
-    src: url('./assets/dist/font/SVN-Gilroy-Medium.ttf') format("opentype");
+    src: url('/assets/dist/font/SVN-Gilroy-Medium.ttf') format("opentype");
     
 }
 
 @font-face {
     font-family: "font-semiBold";
-    src: url('./assets/dist/font/SVN-Gilroy-SemiBold.ttf') format("opentype");
+    src: url('/assets/dist/font/SVN-Gilroy-SemiBold.ttf') format("opentype");
 }
 
 @font-face {
     font-family: "font-bold";
-    src: url('./assets/dist/font/SVN-Gilroy-Bold.ttf') format("opentype");
+    src: url('/assets/dist/font/SVN-Gilroy-Bold.ttf') format("opentype");
 }
 
 @font-face {
     font-family: "font-black";
-    src: url('./assets/dist/font/SVN-Gilroy-Black.ttf') format("opentype");
+    src: url('/assets/dist/font/SVN-Gilroy-Black.ttf') format("opentype");
 }
